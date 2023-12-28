@@ -25,13 +25,13 @@ import me from "../images/me/reec.jpg";
 export const RESUME_DATA = {
   name: "Reece Anderson",
   initials: "RA",
-  location: "Kutztown, Pennsylvania (US)",
+  location: "Kutztown University, Kutztown, Pennsylvania (US)",
   locationLink: "https://www.kutztown.edu",
   about:
     "IT Student passionate about computing security and systems administration",
   summary:
-    "I am a sophomore at Kutztown University working towards my B.S. in Information Technology. ",
-  avatarUrl: me,
+    "I am a Sophomore at Kutztown University working towards my B.S. in Information Technology. As a student, my goal is to learn as much as possible about the industry. I'm currently experimenting with my homelab to learn how server networking and virtualization can be applied to workflows in the IT field. ",
+  avatarUrl: "https://avatars.githubusercontent.com/u/55410535?s=400&u=7117faa8bf5c513082e64bf696e1c33dd921b1d9&v=4",
   personalWebsiteUrl: "https://reeceanderson.net",
   contact: {
     email: "reeceandersonnn@gmail.com",
@@ -55,67 +55,62 @@ export const RESUME_DATA = {
       degree: (
           <>
             Bachelor's of Science in Information Technology <br />
-            Cybersecurity Certificate
+            Cybersecurity Certificate <br />
+            Honors Program
           </>
       ),
-      start: "2022",
+      start: "August 2022",
       end: "Present",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Bethlehem Area Vocational Technical School",
+      link: "https://bethlehemavts.org",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Information Technology Intern",
+      logo: "",
+      start: "May 2022",
+      end: "August 2022",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+          "Worked alongside full-time IT staff to deploy and provision new devices for student and staff use, log inventory of existing classroom technology, and maintain ethernet network in the building.",
     },
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "HTML",
+    "CSS",
+    "PHP",
+    "MySQL",
+    "React/Next.js",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Python",
+    "C++",
   ],
+
+  honors: [
+    {
+      organization: "National Society for Leadership & Success",
+      status: "Inducted Current Member",
+      joinDate: "2023",
+    },
+    {
+      organization: "National Technical Honors Society",
+      status: "Alumni Member",
+      joinDate: "2020",
+    },
+    {
+      organization: "SkillsUSA",
+      status: "Bronze Medalist",
+      joinDate: "2020",
+    },
+    {
+      organization: "Eagle Scout",
+      status: "Boy Scouts of America",
+      joinDate: "2021",
+    },
+  ],
+
   projects: [
     {
       title: "Consultly",

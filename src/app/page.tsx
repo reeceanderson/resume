@@ -92,12 +92,14 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
+        
         <Section>
           <h2 className="text-xl font-bold">About</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
         </Section>
+        
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
@@ -138,6 +140,7 @@ export default function Page() {
             );
           })}
         </Section>
+        
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
@@ -158,6 +161,28 @@ export default function Page() {
             );
           })}
         </Section>
+        
+        <Section>
+          <h2 className="text-xl font-bold"> Honors & Awards</h2>
+          {RESUME_DATA.honors.map((honors) => {
+            return (
+              <Card key={honors.organization}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {honors.organization}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {honors.joinDate}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2">{honors.status}</CardContent>
+              </Card>
+            )
+          })}
+        </Section>
+       
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
@@ -166,7 +191,8 @@ export default function Page() {
             })}
           </div>
         </Section>
-
+        
+{ /*
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
@@ -183,6 +209,7 @@ export default function Page() {
             })}
           </div>
         </Section>
+*/ }
       </section>
 
       <CommandMenu
