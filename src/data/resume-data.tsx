@@ -29,11 +29,8 @@ export const RESUME_DATA = {
   locationLink: "https://www.kutztown.edu",
   about:
     "Passionate IT Student learning about computing security and systems administration.",
-  summary: (<>
-    I am a sophomore at Kutztown University working towards my B.S. in Information Technology. As a student, my goal is to learn as much as possible about the industry. I'm currently experimenting with my homelab to learn how server networking and virtualization can be applied to workflows in the IT field. 
-    <br /><br />
-    Open to exploring internship or part-time employment opportunities in IT or cybersecurity while continuing my education. 
-  </>),
+  summary:
+    "I am a sophomore at Kutztown University working towards my B.S. in Information Technology. As a student, my goal is to learn as much as possible about the industry. I'm currently experimenting with my homelab to learn how server networking and virtualization can be applied to workflows in the IT field.",
     
   avatarUrl: "https://avatars.githubusercontent.com/u/55410535?s=400&u=7117faa8bf5c513082e64bf696e1c33dd921b1d9&v=4",
   personalWebsiteUrl: "https://reeceanderson.net",
