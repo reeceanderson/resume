@@ -28,14 +28,18 @@ export const RESUME_DATA = {
   location: "Kutztown University, Kutztown, Pennsylvania (US)",
   locationLink: "https://www.kutztown.edu",
   about:
-    "IT Student passionate about computing security and systems administration",
-  summary:
-    "I am a Sophomore at Kutztown University working towards my B.S. in Information Technology. As a student, my goal is to learn as much as possible about the industry. I'm currently experimenting with my homelab to learn how server networking and virtualization can be applied to workflows in the IT field. ",
+    "Passionate IT Student learning about computing security and systems administration.",
+  summary: (<>
+    I am a sophomore at Kutztown University working towards my B.S. in Information Technology. As a student, my goal is to learn as much as possible about the industry. I'm currently experimenting with my homelab to learn how server networking and virtualization can be applied to workflows in the IT field. 
+    <br /><br />
+    Open to exploring internship or part-time employment opportunities in IT or cybersecurity while continuing my education. 
+  </>),
+    
   avatarUrl: "https://avatars.githubusercontent.com/u/55410535?s=400&u=7117faa8bf5c513082e64bf696e1c33dd921b1d9&v=4",
   personalWebsiteUrl: "https://reeceanderson.net",
   contact: {
-    email: "reeceandersonnn@gmail.com",
-    tel: "+14849342200",
+    email: "myself@reeceanderson.net",
+    tel: "4849342200",
     social: [
       {
         name: "GitHub",
@@ -54,13 +58,34 @@ export const RESUME_DATA = {
       school: "Kutztown University of Pennsylvania",
       degree: (
           <>
-            Bachelor's of Science in Information Technology <br />
+            B.S. Information Technology <br />
             Cybersecurity Certificate <br />
             Honors Program
           </>
       ),
       start: "August 2022",
       end: "Present",
+    },
+    {
+      school: "Bethlehem Area Vocational Technical School",
+      degree: (
+          <>
+            Website Design and Development Program
+          </>
+      ),
+      start: "August 2019",
+      end: "May 2022",
+    },
+    {
+      school: "Northampton Area High School",
+      degree: (
+          <>
+            General Education <br />
+            3.89 GPA
+          </>
+      ),
+      start: "August 2018",
+      end: "May 2022",
     },
   ],
   work: [
@@ -73,7 +98,18 @@ export const RESUME_DATA = {
       start: "May 2022",
       end: "August 2022",
       description:
-          "Worked alongside full-time IT staff to deploy and provision new devices for student and staff use, log inventory of existing classroom technology, and maintain ethernet network in the building.",
+          "Worked alongside full-time IT staff for the summer to deploy and provision new devices for student and staff use, log inventory of existing classroom technology, and maintain ethernet network in the building.",
+    },
+    {
+      company: "Enterprise Mobility",
+      link: "https://www.enterprise.com/en/home.html",
+      badges: [],
+      title: "Automotive Detailer",
+      logo: "",
+      start: "June 2023",
+      end: "Present",
+      description:
+          "Strive to provide a superior cleaning standard and quality customer service while detailing fleet vehicles and delivering customers to and from rental locations. This position has enhanced my time-management and customer service skills through an often autonomous workload given to me by management.",
     },
   ],
   skills: [
@@ -86,28 +122,31 @@ export const RESUME_DATA = {
     "Node.js",
     "Python",
     "C++",
+    "Time Management",
+    "Customer Service",
+    "Inventory Management",
   ],
 
   honors: [
     {
       organization: "National Society for Leadership & Success",
       status: "Inducted Current Member",
-      joinDate: "2023",
+      joinDate: "February 2023",
     },
     {
       organization: "National Technical Honors Society",
       status: "Alumni Member",
-      joinDate: "2020",
+      joinDate: "March 2020",
     },
     {
       organization: "SkillsUSA",
-      status: "Bronze Medalist",
-      joinDate: "2020",
+      status: "Bronze Medalist in District Competition",
+      joinDate: "September 2019",
     },
     {
-      organization: "Eagle Scout",
-      status: "Boy Scouts of America",
-      joinDate: "2021",
+      organization: "Boy Scouts of America",
+      status: "Eagle Scout",
+      joinDate: "February 2021",
     },
   ],
 

@@ -179,7 +179,7 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2">{honors.status}</CardContent>
               </Card>
-            )
+            );
           })}
         </Section>
        
