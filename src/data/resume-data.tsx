@@ -50,6 +50,7 @@ export const RESUME_DATA = {
       },
     ],
   },
+
   education: [
     {
       school: "Kutztown University of Pennsylvania",
@@ -85,6 +86,7 @@ export const RESUME_DATA = {
       end: "May 2022",
     },
   ],
+
   work: [
     {
       company: "Bethlehem Area Vocational Technical School",
@@ -109,6 +111,7 @@ export const RESUME_DATA = {
           "Strive to provide a superior cleaning standard and quality customer service while detailing fleet vehicles and delivering customers to and from rental locations. This position has enhanced my time-management and customer service skills through an often autonomous workload given to me by management.",
     },
   ],
+
   techSkills: [
     "JavaScript",
     "HTML",
@@ -123,6 +126,7 @@ export const RESUME_DATA = {
     "Linux",
     "Bash & Shell Scripting",
   ],
+
   proSkills: [
     "Time Management",
     "Customer Service",
