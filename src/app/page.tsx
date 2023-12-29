@@ -41,9 +41,8 @@ export default function Page() {
                   variant="outline"
                   size="icon"
                   asChild
-                  target="_blank"
                 >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
+                  <a href={`mailto:${RESUME_DATA.contact.email}`} target="_blank">
                     <MailIcon className="h-4 w-4" />
                   </a>
                 </Button>
@@ -54,9 +53,8 @@ export default function Page() {
                   variant="outline"
                   size="icon"
                   asChild
-                  target="_blank"
                 >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                  <a href={`tel:${RESUME_DATA.contact.tel}`} target="_blank">
                     <PhoneIcon className="h-4 w-4" />
                   </a>
                 </Button>
@@ -68,9 +66,8 @@ export default function Page() {
                   variant="outline"
                   size="icon"
                   asChild
-                  target="_blank"
                 >
-                  <a href={social.url}>
+                  <a href={social.url} target="_blank">
                     <social.icon className="h-4 w-4" />
                   </a>
                 </Button>
