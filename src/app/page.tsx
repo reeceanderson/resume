@@ -41,6 +41,7 @@ export default function Page() {
                   variant="outline"
                   size="icon"
                   asChild
+                  target="_blank"
                 >
                   <a href={`mailto:${RESUME_DATA.contact.email}`}>
                     <MailIcon className="h-4 w-4" />
@@ -53,6 +54,7 @@ export default function Page() {
                   variant="outline"
                   size="icon"
                   asChild
+                  target="_blank"
                 >
                   <a href={`tel:${RESUME_DATA.contact.tel}`}>
                     <PhoneIcon className="h-4 w-4" />
@@ -66,6 +68,7 @@ export default function Page() {
                   variant="outline"
                   size="icon"
                   asChild
+                  target="_blank"
                 >
                   <a href={social.url}>
                     <social.icon className="h-4 w-4" />
@@ -94,10 +97,26 @@ export default function Page() {
         </div>
         
         <Section>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-xl font-bold">Objective</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
+        </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Skills</h2>
+          <div className="text-sm">Technical</div>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.techSkills.map((skill) => {
+              return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div>
+          <div className="text-sm">Professional</div>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.proSkills.map((skill) => {
+              return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div>
         </Section>
         
         <Section>
@@ -181,15 +200,6 @@ export default function Page() {
               </Card>
             );
           })}
-        </Section>
-       
-        <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
         </Section>
         
 { /*

@@ -28,9 +28,9 @@ export const RESUME_DATA = {
   location: "Kutztown University, Kutztown, Pennsylvania (US)",
   locationLink: "https://www.kutztown.edu",
   about:
-    "Passionate IT Student learning about computing security and systems administration.",
+    "IT student passionate about computing security and systems administration.",
   summary:
-    "I am a sophomore at Kutztown University working towards my B.S. in Information Technology. As a student, my goal is to learn as much as possible about the industry. I'm currently experimenting with my homelab to learn how server networking and virtualization can be applied to workflows in the IT field.",
+    "Motivated sophomore at Kutztown University working towards my B.S. in Information Technology. As a student, I am eager to expand my knowledge and gain valuable professional experience. My latest project is experimenting with homelab technology to learn how server networking and virtualization can be applied to my future career in the IT field. As I navigate my academic journey, I am excited to bridge the gap between theory and practice, turning my passion for technology into a driving force for positive change.",
     
   avatarUrl: "https://avatars.githubusercontent.com/u/55410535?s=400&u=7117faa8bf5c513082e64bf696e1c33dd921b1d9&v=4",
   personalWebsiteUrl: "https://reeceanderson.net",
@@ -57,7 +57,7 @@ export const RESUME_DATA = {
           <>
             B.S. Information Technology <br />
             Cybersecurity Certificate <br />
-            Honors Program
+            3.19 GPA
           </>
       ),
       start: "August 2022",
@@ -109,7 +109,7 @@ export const RESUME_DATA = {
           "Strive to provide a superior cleaning standard and quality customer service while detailing fleet vehicles and delivering customers to and from rental locations. This position has enhanced my time-management and customer service skills through an often autonomous workload given to me by management.",
     },
   ],
-  skills: [
+  techSkills: [
     "JavaScript",
     "HTML",
     "CSS",
@@ -119,9 +119,18 @@ export const RESUME_DATA = {
     "Node.js",
     "Python",
     "C++",
+    "Windows",
+    "Linux",
+    "Bash & Shell Scripting",
+  ],
+  proSkills: [
     "Time Management",
     "Customer Service",
     "Inventory Management",
+    "Collaboration",
+    "Organization",
+    "Communication",
+    "Adaptability",
   ],
 
   honors: [
@@ -137,7 +146,7 @@ export const RESUME_DATA = {
     },
     {
       organization: "SkillsUSA",
-      status: "Bronze Medalist in District Competition",
+      status: "Bronze Medalist in District Competition for Web Development",
       joinDate: "September 2019",
     },
     {
