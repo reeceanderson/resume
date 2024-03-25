@@ -56,17 +56,6 @@ export const RESUME_DATA = {
       start: "August 2019",
       end: "May 2022",
     },
-    {
-      school: "Northampton Area High School",
-      degree: (
-          <>
-            General Education <br />
-            3.89 GPA
-          </>
-      ),
-      start: "August 2018",
-      end: "May 2022",
-    },
   ],
 
   work: [
@@ -107,16 +96,6 @@ export const RESUME_DATA = {
     "Windows",
     "Linux",
     "Bash & Shell Scripting",
-  ],
-
-  proSkills: [
-    "Time Management",
-    "Customer Service",
-    "Inventory Management",
-    "Collaboration",
-    "Organization",
-    "Communication",
-    "Adaptability",
   ],
 
   honors: [
